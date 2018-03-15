@@ -1,6 +1,6 @@
 {
   "name": "mark1ad-fancy-react-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Practice making an npm react component package",
   "main": "build/index.js",
   "scripts": {
