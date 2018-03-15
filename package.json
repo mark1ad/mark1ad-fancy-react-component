@@ -1,0 +1,35 @@
+{
+  "name": "mark1ad-fancy-react-component",
+  "version": "0.0.1",
+  "description": "Practice making an npm react component package",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark1ad/mark1ad-fancy-react-component.git"
+  },
+  "author": "Mark De May",
+  "bugs": {
+    "url": "https://github.com/mark1ad/mark1ad-fancy-react-component/issues"
+  },
+  "homepage": "https://github.com/mark1ad/mark1ad-fancy-react-component#readme",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
